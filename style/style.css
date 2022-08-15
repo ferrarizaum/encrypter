@@ -1,0 +1,63 @@
+* {
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+.icone_header{
+    margin: 10px 0px 0px 80px;
+}
+
+.main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto{
+    margin-top: 115px;
+    border-radius: 10px;
+}
+
+.mensagem{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+.informacao{
+    font-size: 15px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar{
+    background-color: darkblue;
+    color: white;
+    border-radius: 15px;
+}
+
+.desencriptar{
+    background-color: darkblue;
+    color: white;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.copiar{
+    background-color: darkblue;
+    color: white;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Encrypter</title>
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="icon" href="icons/spy_icon.png">
+    </head>
+
+    <body>
+        <header class="icone_header">
+            <img src="icons/spy_icon.png" alt="Imagem de um espião">
+        </header>
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="40" rows="6" placeholder="digite aqui:" style="resize:none"></textarea>
+                <div>
+                    <h1 class="informacao">Digite uma mensagem para ser encriptada ou desencriptada :)</h1>
+                </div>
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar()">
+                        Criptografar
+                    </button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">
+                        Descriptografar
+                    </button>
+                    <button class="copiar" onclick="copiar()">
+                        Copiar
+                    </button>
+                </div> 
+            </section> 
+
+            <section>
+                <textarea class="mensagem" cols="18" rows="8" placeholder="mensagem final:" style="resize:none"></textarea>
+            </section>
+       </main>
+       <script src="script/script.js"></script>
+    </body>
+</html>
